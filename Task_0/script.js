@@ -43,11 +43,26 @@
 
 "use strict";
 
+
+// Урок №20 - Условия
+
+
 if (4 == 9) {
     console.log('OK!');
 } else {
     console.log('error');
 } 
+
+// Урок № 22 - Циклы
+
+
+for (let i = 1; i < 10; i++) {
+    if (i === 6) {
+        //break;
+        continue;
+    }
+    console.log(i);   
+}
 
     
 
