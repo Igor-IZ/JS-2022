@@ -47,20 +47,41 @@
 // Урок №20 - Условия
 
 
-if (4 == 9) {
-    console.log('OK!');
-} else {
-    console.log('error');
-} 
+// if (4 == 9) {
+//     console.log('OK!');
+// } else {
+//     console.log('error');
+// } 
 
 // Урок № 22 - Циклы
 
 
-for (let i = 1; i < 10; i++) {
-    if (i === 6) {
-        //break;
-        continue;
+// for (let i = 1; i < 10; i++) {
+//     if (i === 6) {
+//         //break;
+//         continue;
+//     }
+//     console.log(i);   
+// }
+
+
+// ЗАДАЧА №1
+//При помощи цикла выведите числа от 5 до 10 в консоль. 5 и 10 
+
+
+//Первый способ
+
+let num = 5;
+
+    while (num < 11) {
+        console.log(num);
+        num++;
     }
+
+//второй способ
+
+
+for (let i = 5; i < 11; i++) {    
     console.log(i);   
 }
 
