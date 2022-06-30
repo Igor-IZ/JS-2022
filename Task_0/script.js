@@ -85,5 +85,27 @@ for (let i = 5; i < 11; i++) {
     console.log(i);   
 }
 
+//ФУНКЦИИ
+
+function showFirstMessage(){
+    console.log('Hello World!');
+}
+
+showFirstMessage();
+
+// Урок №26 - обменник валют (аргументы и функции)
+
+const usdCurr = 28;
+const eurCurr = 32;
+
+function convert( amount, cur ){
+    console.log(cur * amount);
+}
+
+convert(500, usdCurr);
+convert(500, eurCurr);
+
+
+
     
 
